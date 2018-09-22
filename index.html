@@ -13,6 +13,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
@@ -28,52 +29,69 @@
     <!-- affiche la photo et mon nom et prénomdate de naissance-->
     <img src="" alt="Ma photo">
     <h2>Isabelle PASSENIERS</h2>
-    <p>née le 14/mars 1973</p>
+    <p>Née le 14/mars 1973</p>
   </div>
 
   <div class="aboutme">
     <!--affiche l'emploi recherché et quelques mots sur mon parcours-->
   <h1>Développeuse WEB junior</h1>
     <p>Après un parcours professionnel dans l'accompagnement d'enfants et le milieu associatif, je mets mes compétences acquises au cours des années au service du métier de développeuse web, né d'un intérêt grandissant pour le monde de la tech et du web.</p>
-    </div>
+  </div>
 
-    <div class="coordonées">
+  <div class="coordonées">
       <!--affiche les coordonnées personnelles-->
-      <address class="persoaddr">53/12, rue du 8 mai 1945, 59370 MONS EN BAROEUL</address>
-        <p class="tel">
-        <i class="material-icons">call</i>Portable: 06 27 13 14 80<br/>
-        <i class="material-icons">call</i>fixe: 09 50 71 95 24 </p>
+    <address class="persoaddr">53/12, rue du 8 mai 1945, 59370 MONS EN BAROEUL</address>
+      <p class="tel">
+      <i class="material-icons">call</i>Portable: 06 27 13 14 80<br/>
+      <i class="material-icons">call</i>fixe: 09 50 71 95 24 </p>
      <p class="mailto"><i class="material-icons">email</i>isabelle.passeniers@gmail.com</p>
-    </div>
+  </div>
 
-    <div class="réseauxsoc">
+  <div class="réseauxsoc">
       <!-- affiche icone et lien vers profil-->
-      <img src="lien fichier" alt="linkedin" />
-      <a href="lien profil linkedin" >
-      </a>
-      <a href="lien profil twitter">
-      <img src="lien fichier" alt="twitter" />
-      </a>
-      <img src="lien fichier" alt="GitHub" />
-      <a href="lien profil GitHub">
-      </a>
-    </div>
-  </section>
+    <a href="https://www.linkedin.com/in/isabelle-passeniers/" ><img src="https://icongr.am/devicon/linkedin-original.svg"alt="linkedin"> </a>
+    <a href="https://twitter.com/isapass"><i class="devicon-twitter-plain"></i></a      <a href="https://github.com/isapas"><i class="devicon-github-plain colored"></i></a>
+  </div>
+</section>
 </header>
 
 <main>
   <div class="compétences">
     <section id= "devskills">
-      <div class="">
+          <!-- affiche les compétences dans l'informatique avec icone du langage et barre de progression-->
+
         <h2>LANGAGES</h2>
-        <!-- affiche les compétences dans l'informatique avec icone du langage et barre de progression-->
-          <p class="html5"><progress value="20%" max="100%"></progress></p>
-          <p class="css3"><progress value="20%" max="100%"></progress></p>
-          <p class="php"><progress value="0%" max="100%"></progress></p>
-          <p class="javascript"><progress value="10%" max="100%"></progress></p>
+        <div>
+
+          <div>
+          <label for="html5"><i class="devicon-html5-plain"></i></label>
+          <progress id="html5" name="html5" max="100" value="30">30%</progress>
+      </div>
+        <div>
+          <label for="css3"><i class="devicon-css3-plain-wordmark"></i></label>
+          <progress id="css3" name="css3" max="100" value="20">  70%</progress>
+        </div>
+
+        <div>
+            <label for="php"><i class="devicon-php-plain"></i></label>
+            <progress id="php" name="php" max="100" value="00">  00%</progress>
+        </div>
+
+        <div>
+            <label for="git-github"><i class="devicon-github-plain-wordmark"></i>
+            <i class="devicon-git-plain-wordmark"></i></label>
+            <progress id="git-gitHub" name="git-github" max="100" value="30">30%</progress>
+        </div>
+
         <h2>SYSTÈMES D EXPLOITATION</h2>
-          <p class="windows"><progress value="70%" max="100%"></progress></p>
-          <p class="linux"><progress value="20%" max="100%"></progress></p>
+
+        <div>
+            <label for="linux"><i class="devicon-linux-plain colored"></i></label>
+          <progress id="linux" name="linux" max="100" value="30">30%</progress>
+        </div>
+        <div>
+            <label for="windows"<i class="devicon-windows8-original"></i></label>
+          <progress id="windows" name="git-github" max="100" value="30">30%</progress>
       </div>
     </section>
 
@@ -81,54 +99,62 @@
       <div class="proskills">
         <h2>COMPETENCES PROFESSIONELLES</h2>
         <!-- affiche principales compétences avec icone-->
-          <p><i class="material-icons">name</i>nom de la compétence</P>
-          <p><i class="material-icons">name</i>nom de la compétence</P>
-          <p><i class="material-icons">name</i>nom de la compétence</P>
-          <p><i class="material-icons">name</i>nom de la compétence</P>
-          <p><i class="material-icons">name</i>nom de la compétence</P>
+          <p><i class="material-icons">name</i>animer des réunions d'équipe, des groupes projets, des temps d'analyse de la pratique</P>
+          <p><i class="material-icons">name</i>Animer une équipe et transférer des savoirs et savoirs faire</P>
+          <p><i class="material-icons">name</i>établir des relations et former des réseaux</P>
+          <p><i class="material-icons">name</i>collaborer au sein d'une équipe pluriprofessionnelle </P>
+          <p><i class="material-icons">name</i>Mettre en place et actualiser une veille professionelle</P>
       </div>
     </section>
 
     <section id="studiesandpro">
       <div class="studies">
         <h2>FORMATION</h2>
+          <p>Depuis septembre 2018 jusque mars 2019: Titre professionnel de développeur web fullstack / Simplon.co Roubaix
+</p>
+          <p>De septembre 2012 à septembre 2015: Dimplôme d'état d'éducateur de jeunes enfants / Centre régional de
+formation des professionnels de l'enfance Lille</p>
+          <p>1993: obtention de l'examen de niveau Bac de la DDRASS</p>
+          <p>De septembre 1987 à septembre 1988: BEPC/ Académie de Lille Roubaix, France</p>
+          <p>Mettre en place une veille professionnelle et actualiser</p>
+
+        <!--<h2>AUTODIDACTE</h2>
           <p></p>
           <p></p>
-          <p></p>
-        <h2>AUTODIDACTE</h2>
-          <p></p>
-          <p></p>
-          <p></p>
+          <p></p> -->
     </div>
     </section>
     <section>
       <div class="studies">
         <h2>EXPÉRIENCES PROFESSIONNELLES</h2>
-          <p>date et poste fonction</p>
-          <p>date et poste fonction</p>
-          <p>date et poste fonction</p>
-          <p>date et poste fonction</p>
-          <p>date et poste fonction</p>
-          <p>date et poste fonction</p>
-    </div>
-    </section>
-
-    <section>
-     <div class="other éléments">
-       <h2>Centres d'intérêts</h2>
-       <!--affiche logo et nom-->
-     </div>
-    </section>
-
-    <section>
-      <div class="">
-      <h2>Bénévolat</h2>
-        <p>date et poste fonction</p>
-        <p>date et poste fonction</p>
-        <p>date et poste fonction</p>
+        <p>De mars 2007 à janvier 2018<br> Animatrice socio culturellle / association caramel Mons-en-Barœul<br>
+          Accueil et accompagnement d'enfants lors des temps périscolaires et de accueils de loisirs sans hébergement.</p>
+        <p>De juillet 2016 à juillet 2017:<br>animatrice petite enfance / COORDINATION ACTIONS PROJETS SaintAndré-lez-Lille<br>
+          accueil et accompagnement des jeunes enfants et leur famille.<br>
+          + missions eje accompagnement pédagogique de l'équipe des bébés,  animation des réunions et de temps d'analyses de protiques</p>
+        <p>De mai 2007 à juillet 2007: animatrice en bibliothèque / bibliothèque municipale de Mons en Baroeul<br>
+          accueil physique, prêt et retours des ouvrages, animations autour du livre
+          jeunesse</p>
+        <p>De février 2007 à juin 2007: surveillante en collège / colège communautaire, Villeneuve d'Ascq<br>
+          surveillance des parties communes, des cours de récréations, de la cantine,de l'étude et des examens</p>
       </div>
     </section>
-  </div>
+
+    <div class="other éléments">
+    <section id="interest">
+       <h2>Centres d'intérêts</h2>
+        <!--affiche logo et nom-->
+        <p>Arts créatifs</p>
+        <p>informatique et nouvelles technologies</p>
+        <p>sciences humaines et sociales</p>
+    </section>
+    <section id="bénevolat">
+      <h2>Bénévolat</h2>
+        <p>Administratrice et accueillante association "la cabane dans les arbres " depuis 2015</p>
+        <p>Administrattrice, association Caramel, Mons en Barouel, de 2012 à 2015 </p>
+        <p>Lectrice, bibliothèque de Mons en Baroeul, de 2011 à 2012</p>
+    </section>
+    </div>
 </main>
 
 <footer>
@@ -141,16 +167,11 @@
    <p class="mailto"><i class="material-icons" style="font-size:12px">email</i>isabelle.passeniers@gmail.com</p>
   </div>
   <div class="footressoc">
-    <a href="lien profil linkedin" >
-    <img src="ton fichier" alt="linkedin" />
-    </a>
-    <a href="lien profil twitter">
-    <img src="lien fichier" alt="twitter" />
-    </a>
-    <a href="lien profil GitHub">
-     <img src="adress de l'icone ou leien vers fichier dans le répertoire CV" alt="GitHub" />
-    </a>
+    <a href="https://www.linkedin.com/in/isabelle-passeniers/"> <img src="https://icongr.am/devicon/linkedin-original.svg" alt="linkedin" /></a>
+    <a href="https://twitter.com/isapass"><i class="devicon-twitter-plain"></i></a>
+    <a href="https://github.com/isapas"><i class="devicon-github-plain colored"></i></a>
   </div>
+
 </footer>
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
