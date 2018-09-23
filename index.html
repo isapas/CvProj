@@ -23,39 +23,42 @@
   <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
-<header>
-<section id="identity">
-  <div class="aboutme">
+  <!--page container-->
+<div class="grid-container">
+  <!-- the grid-->
+  <header class= "grid-area">
+    <section id="identity">
+      <div class="aboutme">
     <!-- affiche la photo et mon nom et prénomdate de naissance-->
-    <img src="/home/simplonip/Bureau/Simplon/Site/Lab/CV/img" alt="Ma photo">
-    <h2>Isabelle PASSENIERS</h2>
-    <p>Née le 14/mars 1973</p>
-  </div>
+        <img src="/home/simplonip/Bureau/Simplon/Site/Lab/CV/img" alt="Ma photo">
+        <h2>Isabelle PASSENIERS</h2>
+          <p>Née le 14/mars 1973</p>
+      </div>
 
-  <div class="aboutme">
+      <div class="aboutme">
     <!--affiche l'emploi recherché et quelques mots sur mon parcours-->
-  <h1>Développeuse WEB junior</h1>
-    <p>Après un parcours professionnel dans l'accompagnement d'enfants et le milieu associatif, je mets mes compétences acquises au cours des années au service du métier de développeuse web, né d'un intérêt grandissant pour le monde de la tech et du web.</p>
-  </div>
+        <h1>Développeuse WEB junior</h1>
+          <p>Après un parcours professionnel dans l'accompagnement d'enfants et le milieu associatif, je mets mes compétences acquises au cours des années au service du métier de développeuse web, né d'un intérêt grandissant pour le monde de la tech et du web.</p>
+      </div>
 
-  <div class="coordonées">
+      <div class="coordonées">
       <!--affiche les coordonnées personnelles-->
-    <address class="persoaddr">53/12, rue du 8 mai 1945, 59370 MONS EN BAROEUL</address>
-      <p class="tel">
-      <i class="material-icons">call</i>Portable: 06 27 13 14 80<br/>
-      <i class="material-icons">call</i>fixe: 09 50 71 95 24 </p>
-     <p class="mailto"><i class="material-icons">email</i>isabelle.passeniers@gmail.com</p>
-  </div>
+        <address class="persoaddr">53/12, rue du 8 mai 1945, 59370 MONS EN BAROEUL</address>
+        <p class="tel">
+          <i class="material-icons">call</i>Portable: 06 27 13 14 80<br/>
+          <i class="material-icons">call</i>fixe: 09 50 71 95 24 </p>
+          <p class="mailto"><i class="material-icons">email</i>isabelle.passeniers@gmail.com</p>
+      </div>
 
-  <div class="réseauxsoc">
+      <div class="réseauxsoc">
       <!-- affiche icone et lien vers profil-->
-    <a href="https://www.linkedin.com/in/isabelle-passeniers/" ><img src="https://icongr.am/devicon/linkedin-original.svg" alt="linkedin"> </a>
-    <a href="https://twitter.com/isapass"><i class="devicon-twitter-plain"></i></a>  <a href="https://github.com/isapas"><i class="devicon-github-plain colored"></i></a>
-  </div>
-</section>
-</header>
+        <a href="https://www.linkedin.com/in/isabelle-passeniers/" ><img src="https://icongr.am/devicon/linkedin-original.svg" alt="linkedin"> </a>
+        <a href="https://twitter.com/isapass"><i class="devicon-twitter-plain"></i></a>  <a href="https://github.com/isapas"><i class="devicon-github-plain colored"></i></a>
+      </div>
+    </section>
+  </header>
 
-<main>
+<main class= "grid-area">
 
   <section id= "devskills">
           <!-- affiche les compétences dans l'informatique avec icone du langage et barre de progression-->
@@ -64,8 +67,8 @@
       <div>
 
         <div>
-            <label for="html5"><i class="devicon-html5-plain"></i></label>
-            <progress id="html5" max="100" value="30">30%</progress>
+          <label for="html5"><i class="devicon-html5-plain"></i></label>
+          <progress id="html5" max="100" value="30">30%</progress>
         </div>
         <div>
           <label for="css3"><i class="devicon-css3-plain-wordmark"></i></label>
@@ -73,8 +76,8 @@
         </div>
 
         <div>
-            <label for="php"><i class="devicon-php-plain"></i></label>
-            <progress id="php" max="100" value="00">  00%</progress>
+          <label for="php"><i class="devicon-php-plain"></i></label>
+          <progress id="php" max="100" value="00">  00%</progress>
         </div>
 
         <div>
@@ -97,7 +100,7 @@
     </div>
   </section>
 
-    <section id="proskills">
+  <section id="proskills">
       <div class="proskills">
         <h2>COMPETENCES PROFESSIONELLES</h2>
         <!-- affiche principales compétences avec icone-->
@@ -112,13 +115,14 @@
       </div>
     </section>
 
-    <section id="studiesandpro">
+  <section id="studiesandpro">
       <div class="studies">
         <h2>FORMATION</h2>
-          <p>Depuis septembre 2018 jusque mars 2019: Titre professionnel de développeur web fullstack / Simplon.co Roubaix
-</p>
+          <p>Depuis septembre 2018 jusque mars 2019: Titre professionnel de développeur web fullstack <br>
+            Simplon.co Roubaix
+          </p>
           <p>De septembre 2012 à septembre 2015: Dimplôme d'état d'éducateur de jeunes enfants / Centre régional de
-formation des professionnels de l'enfance Lille</p>
+            formation des professionnels de l'enfance Lille</p>
           <p>1993: obtention de l'examen de niveau Bac de la DDRASS</p>
           <p>De septembre 1987 à septembre 1988: BEPC/ Académie de Lille Roubaix, France</p>
           <p>Mettre en place une veille professionnelle et actualiser</p>
@@ -162,7 +166,7 @@ formation des professionnels de l'enfance Lille</p>
     </div>
 </main>
 
-<footer>
+<footer class= "grid-area">
   <div class="footcoordo">
     <address class="footpersoaddr">53/12, rue du 8 mai 1945, 59370 MONS EN BAROEUL</address>
 
@@ -178,7 +182,7 @@ formation des professionnels de l'enfance Lille</p>
   </div>
 
 </footer>
-
+</div>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
