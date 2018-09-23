@@ -105,12 +105,13 @@ textarea {
  .grid-container {
     background-color: #D6E9F1;
     display: grid;
-    max-width: inherit;
+    width: 100%;
+    height: 100%;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
     grid-gap: 10px;
     padding: 10px;
-    margin-left: 10px;
+    margin: auto;
   }
 
 header {
@@ -124,19 +125,24 @@ header {
 }
   h2 {
     font-size: 1.5em;
-    text-align: justify;
+    text-align: center;
     font-weight: bold;
   }
 h1, h2,footer {
   background-color: #173844;
   color: #D6E9F1;
   }
-p, i {
+p {
   text-align: justify;
   font-size: 1em;
 }
+.contact {
+  font-size: 0.8em;
+
+}
 footer {
   font-size: 0.8em;
+  font-style: italic;
 }
 
 
